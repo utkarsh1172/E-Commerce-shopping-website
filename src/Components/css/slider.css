@@ -1,0 +1,61 @@
+body{
+    overflow-x: hidden;
+}
+
+.hea{
+    margin-top: 20px;
+    font-size:2rem;
+    text-align: left;
+    margin-left: 25px;
+    color: rgb(3, 64, 125)
+}
+
+.cards{
+    display: flex;
+    width: 100vw;
+    padding: 5px 20px;
+    overflow-x:scroll;
+}
+
+
+.cards::-webkit-scrollbar{
+    display: none;
+}
+.cards::-webkit-scrollbar-track1111111{
+    background: #fff;
+
+}
+
+.cards .card {
+    width: 15vw;
+    max-height: 55vh;
+    text-align: center;
+    border: 1px solid dodgerblue;
+    box-shadow:2px 2px 10px black ;
+     border-radius: 10px;
+
+}
+    
+
+
+.cards .card  img{
+    width: 15vw;
+}
+
+.cards .card .productname{
+    font-size: 1rem;
+    font-weight: 900;
+    color: dodgerblue;
+
+}
+.cards .card .price{
+    color: #fff;
+    font-size: 1rem;
+    -webkit-text-stroke: 1px dodgerblue
+}
+  small{
+    font-size: 0.8rem;
+    color: #000;
+    padding:5px 5px  ;
+    padding-bottom: 15px;
+}
