@@ -1,6 +1,7 @@
 import Header from "./Components/Header";
 import Banner from "./Components/Banner";
 import Slider from "./Components/Slider";
+
 import Footer from "./Components/Footer";
 
 
